@@ -1,11 +1,12 @@
-import Head from "next/head";
-
+import { Hero } from "components/Hero";
+import { Body } from "components/Body";
 export default function Home() {
   return (
-    <div>
-      <main></main>
-
-      <footer></footer>
-    </div>
+    <>
+      <div>
+        <Hero />
+        <Body />
+      </div>
+    </>
   );
 }
