@@ -10,7 +10,7 @@ const Layout = ({ children }: LayoutProps) => {
     <>
       <Navbar />
       <main>{children}</main>
-      <footer className="mx-6 lg:mx-52 mt-48 md:mt-96">
+      <footer className="mx-6 lg:mx-52 mt-32 mb-12">
         <Footer />
       </footer>
     </>
