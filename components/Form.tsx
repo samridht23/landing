@@ -35,6 +35,7 @@ const Form = () => {
         setMessage("");
         setLoading(false);
         showAlert();
+        console.log("uploaded");
       })
       .catch((err) => console.log(err));
   };
